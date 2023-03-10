@@ -1,0 +1,48 @@
+body {
+    background-color: hsl(212, 45%, 89%);
+    text-align: center;
+    font-family: 'Outfit', sans-serif;
+    font-size: 15px;
+}
+
+.white-box {
+    position: relative;
+    top: 150px;
+    margin: 0 auto;
+
+    border-radius: 20px;
+    background-color: hsl(0, 0%, 100%);
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+
+    width: 20%;
+}
+
+#qrCode {
+    position: relative;
+    top: 12px;
+    width: 90%;
+    border-radius: 10px;
+}
+
+.title{
+    width: 250px;
+    font-size: 1.3em;
+}
+
+.text{
+    width: 250px;
+    margin-bottom: 40px;
+    font-weight: 400;
+    opacity: 0.6;
+}
+
+.attribution {
+    position: absolute;
+    bottom: 0;
+    right: 0;
+}
